@@ -1,4 +1,5 @@
-from models import database, Contact
+from models import db, Contact
 
 # Create the database tables
-database.create_tables([Contact])
+db.create_tables([Contact])
+
