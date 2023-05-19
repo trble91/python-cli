@@ -1,5 +1,5 @@
 import argparse
-from app.models import Contact
+from models import Contact
 
 parser = argparse.ArgumentParser(description='Contact Book')
 
